@@ -14,3 +14,7 @@ https://rocknix.gosk.in/dtbo
 
 uOS:
 https://overlays.unofficialos.org
+
+
+Deveice Info:
+https://handhelds.miraheze.org/wiki/Category:EmuELEC_Clone
