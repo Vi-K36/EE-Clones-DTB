@@ -16,5 +16,5 @@ uOS:
 https://overlays.unofficialos.org
 
 
-Deveice Info:
+Console Info:
 https://handhelds.miraheze.org/wiki/Category:EmuELEC_Clone
