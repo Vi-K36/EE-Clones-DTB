@@ -20,7 +20,7 @@ https://overlays.unofficialos.org
 ------------------------------------------------
 
 Console Info:
-https://handhelds.miraheze.org/wiki/Category:EmuELEC_Clone
+https://handhelds.wiki/Category:EmuELEC_Clone
 
 ArkOS K36 DTB Files
 https://github.com/AeolusUX/K36-DTB
