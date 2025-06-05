@@ -1,0 +1,7 @@
+i couldn’t get it working back then (ArkOS on my R36S clone), but a kind redditor shared the stock .dtb from their clone and it worked — maybe it’s the same as mine, i just had to rename it. 
+
+let me know if you need anything else. a bit more info:
+our clones came with ArkOS 04242024.,
+they’re very, very similar to the original, including the specs.,
+i got mine from a seller on aliexpress (hee rak online store, listing’s gone) and he got the same one on temu.,
+when i tried to flash AeolusUX's ArkOS for K36 for the first time, Panel 5 mostly worked except for the audio
