@@ -24,3 +24,8 @@ https://handhelds.wiki/Category:EmuELEC_Clone
 
 ArkOS K36 DTB Files
 https://github.com/AeolusUX/K36-DTB
+
+------------------------------------------------
+
+
+![The PlayJoysticks-V6](https://github.com/user-attachments/assets/8e60e7ab-99c0-44de-9e10-fc829345d6f7)
