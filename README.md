@@ -1,7 +1,7 @@
 # EE-Clones-DTB
 Repository of DTB files for the EE clones
 
-** The Project X Pro, R39 Max, T16 Max and L35 are missing.
+** The Project X Pro, T16 Max and L35 are missing.
 
 ------------------------------------------------
 
