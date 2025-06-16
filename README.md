@@ -1,7 +1,7 @@
 # EE-Clones-DTB
 Repository of DTB files for the EE clones
 
-** The Project X Pro and L35 are missing.
+** The L35 is missing.
 
 ------------------------------------------------
 
