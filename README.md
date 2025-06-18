@@ -25,7 +25,7 @@ https://handhelds.wiki/Category:EmuELEC_Clone
 ArkOS K36 DTB Files
 https://github.com/AeolusUX/K36-DTB
 
-UniqueStyle (XiFan)
+UniqueStyle (XiFan):
 https://www.seefunplay.com/
 
 ------------------------------------------------
