@@ -26,7 +26,7 @@ ArkOS K36 DTB Files
 https://github.com/AeolusUX/K36-DTB
 
 UniqueStyle (XiFan):
-https://www.seefunplay.com/
+https://www.seefunplay.com
 
 ------------------------------------------------
 
