@@ -1,7 +1,7 @@
 # EE-Clones-DTB
 Repository of DTB files for the EE clones
 
-** The L35 is missing.
+** Upcoming: XF40H, XF35H, RG32T Series, RK35H.
 
 ------------------------------------------------
 
