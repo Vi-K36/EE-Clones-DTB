@@ -34,3 +34,8 @@ https://www.seefunplay.com
 
 
 ![The PlayJoysticks-V6](https://github.com/user-attachments/assets/8e60e7ab-99c0-44de-9e10-fc829345d6f7)
+
+
+
+------------------------------------------------
+Spiritual Successors (A133P-Batocera): H36S, Helegaly Pocket Pi, K36Max.
