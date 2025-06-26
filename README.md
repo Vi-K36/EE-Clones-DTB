@@ -1,7 +1,7 @@
 # EE-Clones-DTB
 Repository of DTB files for the EE clones
 
-* Missing: RG36T
+** Missing: RG36T
 ** Upcoming: XF40H, XF35H, RG36T RK3128/3566, RK35H.
 
 ------------------------------------------------
