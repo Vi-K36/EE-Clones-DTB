@@ -1,4 +1,48 @@
 
+	dsi@ff450000 {
+		compatible = "rockchip,px30-mipi-dsi";
+		reg = <0x00 0xff450000 0x00 0x10000>;
+		interrupts = <0x00 0x4b 0x04>;
+		clocks = <0x02 0x144>;
+		clock-names = "pclk";
+		phys = <0x4c>;
+		phy-names = "dphy";
+		power-domains = <0x87 0x0c>;
+		resets = <0x02 0x3d>;
+		reset-names = "apb";
+		rockchip,grf = <0x33>;
+		#address-cells = <0x01>;
+		#size-cells = <0x00>;
+		status = "okay";
+		phandle = <0x120>;
+
+		ports {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+
+			port@0 {
+				reg = <0x00>;
+				#address-cells = <0x01>;
+				#size-cells = <0x00>;
+
+				endpoint@0 {
+					reg = <0x00>;
+					remote-endpoint = <0x13>;
+					status = "okay";
+					phandle = <0xa3>;
+				};
+			};
+
+			port@1 {
+				reg = <0x01>;
+
+				endpoint {
+					remote-endpoint = <0x9d>;
+					phandle = <0xa1>;
+				};
+			};
+		};
+
 		panel@0 {
 			compatible = "sitronix,st7703\0simple-panel-dsi";
 			reg = <0x00>;
@@ -55,3 +99,4 @@
 			};
 		};
 	};
+
