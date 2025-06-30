@@ -1,0 +1,5 @@
+This is the RK3326 EE-Clone with the lowest screen resolution. 
+
+* For some reason (probably the lack of the panel init-sequence), this dtb doesn't seem to work with the RockNix or uOS dtbo generator. 
+
+The RK3128 EE-Clones (G28 / R43S / XF43), which also run EmuElec 4.7, have a screen with the same size and resolution, and their dtb also lacks the panel init-sequence.
