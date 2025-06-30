@@ -1,0 +1,4 @@
+Same as ANS11 and HG36, but:
+
+pcfg-pull-up-12ma
+phandle = <0xc0>;
