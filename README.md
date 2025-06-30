@@ -35,7 +35,7 @@ https://www.seefunplay.com
 ------------------------------------------------
 
 
-![The PlayJoysticks-V7](https://github.com/user-attachments/assets/8707aff3-c075-479d-b5d4-daaeaed858be)
+![The PlayJoysticks-V7 1](https://github.com/user-attachments/assets/e414c102-e7cf-4563-8b6d-1e05704628d0)
 
 
 
