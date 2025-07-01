@@ -1,0 +1,5 @@
+K36 ArkOS port works without changing  DTB
+
+Also present in the 3015-2025-02-22 Board (confirmed by Nico Angelis).
+
+Aka: Shiva Rama 36S

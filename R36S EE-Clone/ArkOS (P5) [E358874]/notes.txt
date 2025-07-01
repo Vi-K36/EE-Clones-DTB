@@ -1,0 +1,3 @@
+The root partition contains a secondary dtb file with the name "rk3326-evb-lp3-v12-linux.dtb". This file is the exact same one as the Panel 5 dtb incldued with ArkOS for the K36.
+
+The boot partition is protected (can't be accessed from PC) and has been renamed to ESP. 
