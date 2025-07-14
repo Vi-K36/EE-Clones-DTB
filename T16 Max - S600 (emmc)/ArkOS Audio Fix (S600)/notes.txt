@@ -1,0 +1,1 @@
+Got ArkOS for the R36 Max to work correctly on the Batclone-S600. Originally I had no audio.  I changed "spk-volume = <0x17>;" to "spk-volume = <0x06>;" and deleted "use-ext-amplifier;". Not sure if I was all neded but it was the differences I saw in their emuelec dtb files.
