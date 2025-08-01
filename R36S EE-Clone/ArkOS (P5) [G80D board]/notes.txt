@@ -1,0 +1,1 @@
+The boot partition is protected (can't be accessed from PC) and has been renamed to ESP. 
