@@ -1,0 +1,101 @@
+
+	dsi@ff450000 {
+		compatible = "rockchip,px30-mipi-dsi";
+		reg = <0x00 0xff450000 0x00 0x10000>;
+		interrupts = <0x00 0x4b 0x04>;
+		clocks = <0x02 0x144>;
+		clock-names = "pclk";
+		phys = <0x4c>;
+		phy-names = "dphy";
+		power-domains = <0x87 0x0c>;
+		resets = <0x02 0x3d>;
+		reset-names = "apb";
+		rockchip,grf = <0x33>;
+		#address-cells = <0x01>;
+		#size-cells = <0x00>;
+		status = "okay";
+		phandle = <0x122>;
+
+		ports {
+			#address-cells = <0x01>;
+			#size-cells = <0x00>;
+
+			port@0 {
+				reg = <0x00>;
+				#address-cells = <0x01>;
+				#size-cells = <0x00>;
+
+				endpoint@0 {
+					reg = <0x00>;
+					remote-endpoint = <0x13>;
+					status = "okay";
+					phandle = <0xa3>;
+				};
+			};
+
+			port@1 {
+				reg = <0x01>;
+
+				endpoint {
+					remote-endpoint = <0x9d>;
+					phandle = <0xa1>;
+				};
+			};
+		};
+
+		panel@0 {
+			compatible = "sitronix,st7703\0simple-panel-dsi";
+			reg = <0x00>;
+			backlight = <0x9e>;
+			power-supply = <0x9f>;
+			prepare-delay-ms = <0x78>;
+			reset-delay-ms = <0x78>;
+			init-delay-ms = <0x78>;
+			enable-delay-ms = <0x78>;
+			disable-delay-ms = <0x78>;
+			unprepare-delay-ms = <0x78>;
+			width-mm = <0x99>;
+			height-mm = <0x55>;
+			dsi,flags = <0xa03>;
+			dsi,format = <0x00>;
+			dsi,lanes = <0x04>;
+			panel-init-sequence = [39 00 04 b9 f1 12 83 39 00 06 b1 00 00 00 da 80 39 00 04 b2 3c 12 30 39 00 0b b3 10 10 28 28 03 ff 00 00 00 00 15 00 02 b4 80 39 00 03 b5 0a 0a 39 00 03 b6 97 97 39 00 05 b8 26 22 f0 13 39 00 1c ba 33 81 05 f9 0e 0e 20 00 00 00 00 00 00 00 44 25 00 90 0a 00 00 01 4f 01 00 00 37 15 00 02 bc 47 39 00 04 bf 02 11 00 39 00 0a c0 73 73 50 50 00 00 12 70 00 39 00 0d c1 25 00 32 32 77 e4 ff ff cc cc 77 77 39 00 07 c6 82 00 bf ff 00 ff 39 00 07 c7 b8 00 0a 00 00 00 39 00 05 c8 10 40 1e 02 15 00 02 cc 0b 39 00 23 e0 00 0b 10 2c 3d 3f 42 3a 07 0d 0f 13 15 13 14 0f 16 00 0b 10 2c 3d 3f 42 3a 07 0d 0f 13 15 13 14 0f 16 39 00 0f e3 07 07 0b 0b 0b 0b 00 00 00 00 ff 00 c0 10 39 00 40 e9 c8 10 0a 00 00 80 81 12 31 23 4f 86 a0 00 47 08 00 00 0c 00 00 00 00 00 0c 00 00 00 98 02 8b af 46 02 88 88 88 88 88 98 13 8b af 57 13 88 88 88 88 88 00 00 00 00 00 00 00 00 00 00 00 00 00 39 00 3e ea 97 0c 09 09 09 78 00 00 00 00 00 00 9f 31 8b a8 31 75 88 88 88 88 88 9f 20 8b a8 20 64 88 88 88 88 88 23 00 00 02 71 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 80 81 00 00 00 00 39 00 04 ef ff ff 01 05 fa 01 11 05 32 01 29];
+			panel-exit-sequence = <0x5000128 0x5000110>;
+			reset-gpios = <0x66 0x1b 0x01>;
+
+			display-timings {
+				native-mode = <0xa0>;
+
+				timing0 {
+					clock-frequency = <0x2aea540>;
+					hactive = <0x2d0>;
+					vactive = <0x2d0>;
+					hfront-porch = <0x8c>;
+					hsync-len = <0x50>;
+					hback-porch = <0x8c>;
+					vfront-porch = <0x14>;
+					vsync-len = <0x04>;
+					vback-porch = <0x14>;
+					hsync-active = <0x00>;
+					vsync-active = <0x00>;
+					de-active = <0x00>;
+					pixelclk-active = <0x00>;
+					phandle = <0xa0>;
+				};
+			};
+
+			ports {
+				#address-cells = <0x01>;
+				#size-cells = <0x00>;
+
+				port@0 {
+					reg = <0x00>;
+
+					endpoint {
+						remote-endpoint = <0xa1>;
+						phandle = <0x9d>;
+					};
+				};
+			};
+		};
+	};
